@@ -17,7 +17,7 @@ zplug "~/.zsh/script", from:local, use:"alias.zsh"
 zplug "~/.zsh/script", from:local, use:"notifier.zsh"
 zplug "~/.zsh/script", from:local, use:"xenv.zsh"
 zplug "~/.zsh/script", from:local, use:"fzf.zsh", defer:1
-zplug "~/.zsh/themes", from:local, as:theme, use:"myfishymod.zsh-theme"
+zplug "robbyrussell/oh-my-zsh", as:theme, use:"themes/gentoo.zsh-theme"
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
